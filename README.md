@@ -1,8 +1,16 @@
 ARDUINO IDE
-> > buka apk ARDUINO IDE. klik file-preferences, salin link 'https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json' dan paste kedalam Additional Boards Manager URLs. klik OK.
-> > downloaod Library ZIP esp32 cam pada link Github berikut 'https://github.com/yoursunny/esp32cam.git'
-> > 
-> > klik Sketch-Include Library-Add .ZIP Library
+> buka apk ARDUINO IDE. klik file-preferences, salin link 'https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json' dan paste kedalam Additional Boards Manager URLs. klik OK.
+>  downloaod Library ZIP esp32 cam pada link Github berikut 'https://github.com/yoursunny/esp32cam.git'
+>  
+>  klik Sketch - Include Library - Add .ZIP Library - [tambahkan ZIP yang sudah di download] - Add 
+>
+> klik Tools - Board - Board Manager - [install board esp32 by Espressif Systems]
+>
+> klik Tools - Board - Board Manager - esp32 - AI Thinker ESP32-CAM
+>
+> sambungkan ESP32 Cam dengan kabel USB-Micro pada Laptop
+> 
+> klik Tools - Port - [pilih port yang tersedia]
 > 
 > salin code pada file 'WifiCam.ino' ubah 'WIFI_SSID dan WIFI_PASS' pada code yang berada didalam file 'WifiCam.ino' di aplikasi Arduino IDE. upload code lalu tekan serial monitor untuk mendapatkan link url web esp32 cam
 > salin link url beserta keterangan resolusi camera
