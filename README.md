@@ -1,6 +1,7 @@
 ARDUINO IDE
-> ubah 'WIFI_SSID dan WIFI_PASS' pada code yang berada didalam file 'WifiCam.ino' di aplikasi Arduino IDE
-> upload code lalu tekan serial monitor untuk mendapatkan link url web esp32 cam
+buka apk ARDUINO IDE. klik file-preferences, salin link 'https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json' dan paste kedalam Additional Boards Manager URLs. klik OK. 
+
+salin code pada file 'WifiCam.ino' ubah 'WIFI_SSID dan WIFI_PASS' pada code yang berada didalam file 'WifiCam.ino' di aplikasi Arduino IDE. upload code lalu tekan serial monitor untuk mendapatkan link url web esp32 cam
 > salin link url beserta keterangan resolusi camera
 
 VSCODE 
